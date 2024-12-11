@@ -1,12 +1,10 @@
-/* .App {
-  text-align: center;
-} */
-
-body {
+body 
+{
   background-color: #f6f9f9;
 }
 
-.header {
+.header 
+{
   background-color: #f6f9f9;
   border-bottom: 1px solid #afcaca;
   position: fixed;
@@ -16,17 +14,20 @@ body {
   z-index: 10;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo-spin 
+{
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
 
-.pointer {
+.pointer 
+{
   cursor: pointer;
   color: #007bff;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) 
+{
   .nav-container {
       position: fixed;
       height: 86%;
@@ -35,15 +36,18 @@ body {
   }
 }
 
-img, figure {
+img, figure 
+{
   max-width: 100%;
 }
 
-.container-fluid .row {
+.container-fluid .row
+{
   margin-top: 5.5em;
 }
 
-.loader {
+.loader 
+{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -52,9 +56,8 @@ img, figure {
   transform: translateX(-50%) translateY(-50%);
 }
 
-/* Static Shape */
-
-.loader:before {
+.loader:before 
+{
   position: absolute;
   content: '';
   top: 0%;
@@ -65,9 +68,8 @@ img, figure {
   border: 0.2em solid rgba(0, 0, 0, 0.1);
 }
 
-/* Active Shape */
-
-.loader:after {
+.loader:after 
+{
   position: absolute;
   content: '';
   top: 0%;
@@ -83,9 +85,8 @@ img, figure {
   box-shadow: 0px 0px 0px 1px transparent;
 }
 
-/* Active Animation */
-
-@-webkit-keyframes loader {
+@-webkit-keyframes loader 
+{
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -97,7 +98,8 @@ img, figure {
   }
 }
 
-@keyframes loader {
+@keyframes loader 
+{
   from {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -110,7 +112,8 @@ img, figure {
 }
 
 .loader:before,
-.loader:after {
+.loader:after 
+{
   width: 2.28571429rem;
   height: 2.28571429rem;
   margin: 0em;
