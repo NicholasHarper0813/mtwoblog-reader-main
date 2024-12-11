@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import M2Blog from './blog/M2Blog';
 import './App.css';
 
-import M2Blog from './blog/M2Blog';
-
-class App extends Component {
+class App extends Component 
+{
   render() {
     return (
       <div className="App container-fluid">
